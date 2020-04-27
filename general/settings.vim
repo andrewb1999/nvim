@@ -21,11 +21,10 @@ set smarttab                            " Makes tabbing smarter will realize you
 set expandtab                           " Converts tabs to spaces
 set smartindent                         " Makes indenting smart
 set autoindent                          " Good auto indent
-set laststatus=0                        " Always display the status line
-set number                              " Line numbers
-set cursorline                          " Enable highlighting of the current line
+set laststatus=2                        " Always display the status line
 set background=dark                     " tell vim what the background color looks like
-set showtabline=2                       " Always show tabs 
+set showtabline=1                       " Always show tabs 
+set showtabline&
 set noshowmode                          " We don't need to see things like -- INSERT -- anymore
 set nobackup                            " This is recommended by coc
 set nowritebackup                       " This is recommended by coc
@@ -39,7 +38,7 @@ set clipboard=unnamedplus               " Copy paste between vim and everything 
 
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
-
+highlight Pmenu ctermfg=15 ctermbg=0 guifg=#ffffff guibg=#000000
 
 " You can't stop me
 cmap w!! w !sudo tee %

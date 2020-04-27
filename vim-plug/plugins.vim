@@ -13,13 +13,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Auto pairs for '(' '[' '{' 
     Plug 'jiangmiao/auto-pairs'
     " Themes
-    Plug 'christianchiarulli/onedark.vim'
-    Plug 'kaicataldo/material.vim'
     " Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Status Line
-    Plug 'vim-airline/vim-airline'
-    Plug 'vim-airline/vim-airline-themes'
+    Plug 'itchyny/lightline.vim'
     " Ranger
     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 

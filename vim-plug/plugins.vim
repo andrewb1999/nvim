@@ -19,6 +19,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'itchyny/lightline.vim'
     " Ranger
     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+    Plug 'vhda/verilog_systemverilog.vim'
 
 
 

@@ -24,7 +24,7 @@
     "clangd": {
       "command": "clangd",
       "rootPatterns": ["compile_flags.txt", "compile_commands.json"],
-      "filetypes": ["c", "cpp", "hpp", "tpp", "objc", "objcpp"]
+      "filetypes": ["c", "cpp", "hpp", "tpp", "objc", "objcpp", "h"]
     }
   }
 }

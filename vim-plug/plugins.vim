@@ -11,7 +11,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
     " Auto pairs for '(' '[' '{' 
-    Plug 'jiangmiao/auto-pairs'
+    " Plug 'jiangmiao/auto-pairs'
     " Themes
     " Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -20,6 +20,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Ranger
     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
     Plug 'vhda/verilog_systemverilog.vim'
+    Plug 'sudar/comments.vim'
 
 
 

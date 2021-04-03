@@ -20,7 +20,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Ranger
     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
     Plug 'vhda/verilog_systemverilog.vim'
-    Plug 'sudar/comments.vim'
+    Plug 'tpope/vim-commentary'
+    Plug 'vim-scripts/netrw.vim'
+    Plug 'rust-lang/rust.vim'
 
 
 

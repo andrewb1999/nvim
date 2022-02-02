@@ -9,6 +9,7 @@ endif
 call plug#begin('~/.config/nvim/autoload/plugged')
 
     " Better Syntax Support
+    " Plug 'ocamlpro/ocp-indent'
     Plug 'sheerun/vim-polyglot'
     " Auto pairs for '(' '[' '{' 
     " Plug 'jiangmiao/auto-pairs'
@@ -23,10 +24,17 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-commentary'
     Plug 'vim-scripts/netrw.vim'
     Plug 'rust-lang/rust.vim'
-
-
+    Plug 'rbgrouleff/bclose.vim'
+    Plug 'francoiscabrol/ranger.vim'
+    Plug 'sbdchd/neoformat'
+    Plug 'dylon/vim-antlr'
+    Plug 'sampsyo/bril', { 'for': 'bril', 'rtp': 'bril-vim' }
+    Plug '~/Documents/zhang/calyx/tools/vim/futil'
+    Plug '~/Documents/zhang/dahlia/tools/vim/fuse'
+    Plug '~/Documents/zhang/mlir/llvm-project/mlir/utils/vim'
 
 call plug#end()
+
 
 " Automatically install missing plugins on startup
 autocmd VimEnter *

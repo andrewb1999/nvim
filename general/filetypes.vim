@@ -13,6 +13,7 @@ autocmd FileType c,cpp,hpp,h,verilog_systemverilog,antlr4,fuse,mlir set comments
 autocmd BufEnter *.ys :setlocal commentstring=#\ %s
 autocmd BufEnter *.f :setlocal filetype=
 autocmd BufEnter *.bril :setlocal filetype=bril
+autocmd BufEnter *.txt :setlocal filetype=txt
 
 if g:ocaml_has_ocpindent
   autocmd FileType ocaml execute "source " . g:ocaml_ocp_indent

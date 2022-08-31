@@ -35,3 +35,9 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
+
+" Easy home/end/pgup/pgdn for keyboard without Fn
+map <A-Right> <End>
+map <A-Left> <Home>
+map <A-Up> <PageUp>
+map <A-Down> <PageDown>

@@ -34,7 +34,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'sampsyo/bril', { 'for': 'bril', 'rtp': 'bril-vim' }
     Plug '~/Documents/zhang/calyx/tools/vim/futil'
     Plug '~/Documents/zhang/dahlia/tools/vim/fuse'
-    Plug '~/Documents/zhang/mlir/llvm-project/mlir/utils/vim'
+    Plug '~/Documents/zhang/llvm-project/mlir/utils/vim'
 
 call plug#end()
 

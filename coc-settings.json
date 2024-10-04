@@ -9,9 +9,11 @@
     "json",
     "python"
   ],
+  // suggest
+  // "suggest.noselect": true,
   // python config
-  "python.linting.enabled": true,
-  "python.linting.pylintEnabled": true,
+  "pyright.enable": true,
+  "python.analysis.autoImportCompletions": true,
   "snippets.ultisnips.directories": [
     "UltiSnips",
     "~/.config/nvim/utils/snips"
@@ -30,10 +32,12 @@
   },
   "rust.wait_to_build": 10,
   "rust.all_features": true,
+  "rust-analyzer.server.path": "~/.cargo/bin/rust-analyzer",
   "rust-analyzer.checkOnSave.enable": true,
   "rust-analyzer.inlayHints.refreshOnInsertMode": true,
   "rust-analyzer.cargo.allFeatures": true,
   "rust-analyzer.inlayHints.enable": false,
+  "notification.disabledProgressSources": ["*"],
   "languageserver": {
     "clangd": {
       "command": "clangd",

@@ -15,7 +15,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Plug 'jiangmiao/auto-pairs'
     " Themes
     " Intellisense
-    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}"
     " Status Line
     Plug 'itchyny/lightline.vim'
     " Ranger
@@ -31,10 +31,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-telescope/telescope.nvim'
     Plug 'BurntSushi/ripgrep'
-    Plug 'sampsyo/bril', { 'for': 'bril', 'rtp': 'bril-vim' }
-    Plug '~/Documents/zhang/calyx/tools/vim/futil'
-    Plug '~/Documents/zhang/dahlia/tools/vim/fuse'
-    Plug '~/Documents/zhang/mlir/llvm-project/mlir/utils/vim'
+    Plug 'bluz71/vim-moonfly-colors', { 'as': 'moonfly' }
+    Plug '~/.config/nvim/breezy'
 
 call plug#end()
 

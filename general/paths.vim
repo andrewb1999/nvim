@@ -1,2 +1,2 @@
-let g:python3_host_prog = expand("~/.miniconda/envs/neovim/bin/python3.8")
+let g:python3_host_prog = expand("/work/shared/users/phd/atb78/miniconda/bin/python3.9")
 

@@ -5,19 +5,15 @@ endif
 
 let g:colors_name = 'breezy'
 
-if(&background == "dark")
-    hi Normal        guibg=#000000 guifg=#cfcfc2 gui=NONE
-else
-    hi Normal        guibg=#15171a guifg=#cfcfc2 gui=NONE
-endif
+hi Normal        guibg=NONE    guifg=#cfcfc2 gui=NONE
 
 hi LineNr        guibg=#31363b guifg=#7a7c7d gui=NONE
 hi FoldColumn    guibg=#31363b guifg=#7a7c7d gui=NONE
 hi Folded        guibg=#31363b guifg=#7a7c7d gui=NONE
 hi MatchParen    guibg=#8e44ad guifg=#cfcfc2 gui=NONE
 hi signColumn    guibg=#31363b guifg=#7a7c7d gui=NONE
-hi CocFloating guibg=#31363b guifg=#7a7c7d gui=NONE
-hi CocErrorSign guifg=#ff0000 guibg=NONE
+hi CocFloating   guibg=#31363b guifg=#7a7c7d gui=NONE
+hi CocErrorSign  guifg=#ff0000 guibg=NONE
 hi link CocErrorFloat CocErrorSign
 hi NormalFloat guibg=#31363b guifg=#7a7c7d gui=NONE
 
@@ -92,13 +88,15 @@ hi SpellLocal    guibg=NONE    guifg=NONE    gui=undercurl
 hi SpellRare     guibg=NONE    guifg=NONE    gui=undercurl
 
 hi ColorColumn   guibg=#2a2e32 guifg=NONE    gui=NONE
+hi Delimiter        guibg=NONE guifg=#cfcfc2 gui=NONE
 
 " general ---------------------------------------------------------------------
 
 hi link Character      String
 hi link Conditional    Statement
 hi link Define         Type
-hi link Delimiter      Normal
+hi link TexDelimiter   Normal
+" hi link Delimiter      Normal
 hi link Exception      Statement
 hi link Float          Number
 hi link Function       Normal

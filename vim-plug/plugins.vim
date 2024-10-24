@@ -33,6 +33,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'BurntSushi/ripgrep'
     Plug 'bluz71/vim-moonfly-colors', { 'as': 'moonfly' }
     Plug '~/.config/nvim/breezy'
+    Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 call plug#end()
 

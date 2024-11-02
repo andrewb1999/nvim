@@ -1,6 +1,6 @@
 autocmd Filetype cpp setlocal ts=2 sw=2 sts=0 expandtab ai smarttab
 autocmd Filetype c setlocal ts=2 sw=2 sts=0 expandtab ai smarttab
-autocmd Filetype tpp setlocal ts=4 sw=4 sts=0 expandtab
+autocmd Filetype tpp setlocal ts=2 sw=2 sts=0 expandtab
 autocmd BufEnter *.tpp :setlocal filetype=cpp
 autocmd BufEnter *.h :setlocal filetype=cpp
 autocmd BufEnter *.inc :setlocal filetype=cpp
@@ -14,8 +14,10 @@ autocmd FileType c,cpp,hpp,h,verilog_systemverilog,antlr4,fuse,mlir set comments
 autocmd BufEnter *.ys :setlocal commentstring=#\ %s
 autocmd BufEnter *.f :setlocal filetype=
 autocmd BufEnter *.bril :setlocal filetype=bril
-autocmd BufEnter *.mlir :setlocal filetype=mlir
+autocmd BufEnter *.mlir :setlocal filetype=mlir commentstring=//\ %s
+autocmd BufEnter *.td :setlocal filetype=tablegen commentstring=//\ %s
 autocmd BufEnter *.txt :setlocal filetype=txt
 autocmd BufEnter CMakeLists.txt :setlocal filetype=cmake
 autocmd BufEnter *.cmake :setlocal filetype=cmake
 autocmd FileType cmake set commentstring=#\ %s
+autocmd FileType *.py set commentstring=#\ %s

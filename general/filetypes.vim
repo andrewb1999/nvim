@@ -15,6 +15,6 @@ autocmd BufEnter *.f :setlocal filetype=
 autocmd BufEnter *.bril :setlocal filetype=bril
 autocmd BufEnter *.txt :setlocal filetype=txt
 
-if g:ocaml_has_ocpindent
+if get(g:, 'ocaml_has_ocpindent', 0)
   autocmd FileType ocaml execute "source " . g:ocaml_ocp_indent
 endif

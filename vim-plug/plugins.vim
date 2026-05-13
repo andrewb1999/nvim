@@ -31,10 +31,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-telescope/telescope.nvim'
     Plug 'BurntSushi/ripgrep'
-    Plug 'sampsyo/bril', { 'for': 'bril', 'rtp': 'bril-vim' }
-    Plug '~/Documents/zhang/calyx/tools/vim/futil'
-    Plug '~/Documents/zhang/dahlia/tools/vim/fuse'
-    Plug '~/Documents/zhang/llvm-project/mlir/utils/vim'
 
 call plug#end()
 
